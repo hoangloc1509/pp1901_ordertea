@@ -1,4 +1,5 @@
 <?php
+use App\Http\Controllers\RegistrationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -11,6 +12,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/register', 'RegistrationController@create');
+Route::post('register', 'RegistrationController@store');

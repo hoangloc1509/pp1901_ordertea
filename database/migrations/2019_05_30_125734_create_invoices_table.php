@@ -17,7 +17,12 @@ class CreateInvoicesTable extends Migration
             $table->bigIncrements('id');
             $table->date('buydate');
             $table->integer('user_id');
-            $table->string('payment')->nullable(false);
+            $table->integer('product_id');
+            $table->integer('topping_id');
+            $table->integer('invoice_id');
+            $table->integer('quantity');
+            $table->integer('payment_id');
+            $table->text('note');
             $table->timestamps();
         });
     }

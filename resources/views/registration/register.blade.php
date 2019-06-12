@@ -1,6 +1,6 @@
 @extends('master')
 
-@section('title', '{{ __(Register Form) }}')
+@section('title', 'Register Form')
 
 @section('content')
 <?php //Hiển thị thông báo thành công?>

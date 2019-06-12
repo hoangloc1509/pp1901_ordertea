@@ -27,3 +27,4 @@ class Locale
         return $next($request);
     }
 }
+

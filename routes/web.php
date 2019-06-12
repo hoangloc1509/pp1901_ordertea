@@ -28,3 +28,4 @@ Route::get('logout', [ 'as' => 'logout', 'uses' => 'Auth\LogoutController@getLog
 
 //Thay doi ngon ngu
 Route::get('change-language/{language}', 'Auth\LoginController@changeLanguage')->name('change-language');
+

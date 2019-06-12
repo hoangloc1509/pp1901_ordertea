@@ -60,3 +60,4 @@ class Kernel extends HttpKernel
         'locale' => \App\Http\Middleware\Locale::class,
     ];
 }
+

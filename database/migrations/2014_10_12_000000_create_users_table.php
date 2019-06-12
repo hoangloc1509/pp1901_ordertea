@@ -23,10 +23,7 @@ class CreateUsersTable extends Migration
             $table->integer('role_id');
             $table->string('email')->unique();
             $table->string('password');
-<<<<<<< fa203904f1fa5088f081552de0542ac776dd49c7
-=======
             $table->string('image', 255)->nullable(false);
->>>>>>> make_migration fix
             $table->rememberToken();
             $table->timestamps();
         });
